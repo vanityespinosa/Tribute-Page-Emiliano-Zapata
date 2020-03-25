@@ -11,3 +11,12 @@
 *:after {
     box-sizing: border-box;
 }
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Trade Winds', cursive;
+}
+
