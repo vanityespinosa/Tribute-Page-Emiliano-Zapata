@@ -14,9 +14,26 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: url("/images/greek-vase.png");
+}
+
+header {
+    height: 4rem;
+    text-align: center;
+    padding: 0.5rem;
 }
 
 h1 {
     font-family: 'Trade Winds', cursive;
 }
-
+section {
+    padding: 1rem;
+}
+ ul {
+     text-align: left;
+     padding: 1rem;
+ }
