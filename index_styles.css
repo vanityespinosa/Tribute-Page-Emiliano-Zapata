@@ -15,6 +15,8 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 body {
@@ -23,17 +25,65 @@ body {
 
 header {
     height: 4rem;
-    text-align: center;
     padding: 0.5rem;
+    background-color: brown;
+    color: #fff;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Trade Winds', cursive;
 }
-section {
-    padding: 1rem;
+
+ul {
+    padding: 0 1rem;
 }
- ul {
-     text-align: left;
-     padding: 1rem;
- }
+
+li {
+    padding: 1rem 0;
+}
+/***********************************************
+    Main Section
+***********************************************/
+main section {
+    padding: 1.25rem;
+}
+
+/********** Landing Styles *********/
+main #landing {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("images/small_Emiliano_Zapata_04.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+main #landing h2 {
+    font-size: 3rem;
+    font-style: italic;
+}
+/********** Timeline Styles *********/
+main #timeline {
+    background-color: rgb(198, 241, 255);
+    text-align: left;
+}
+main #timeline h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+main #timeline img {
+    width: 100%;
+}
+main #timeline figure {
+    margin: 2rem 0;
+}
+
+/***********************************************
+    Footer Section
+***********************************************/
+footer {
+    background-color: black;
+    color: #fff;
+}
