@@ -87,3 +87,40 @@ footer {
     background-color: black;
     color: #fff;
 }
+
+/*----------------------------------------------------------------------------
+                          Tablet Design
+------------------------------------------------------------------------------*/
+@media only screen and (min-width: 500px) {
+    ul {
+        padding: 0 3rem;
+    }
+    /***********************************************
+    Main Section
+    ***********************************************/
+    main section {
+        padding: 1.25rem;
+    }
+
+    /********** Landing Styles *********/
+    main #landing {
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("images/Emiliano_Zapata_04.jpg") no-repeat center;
+        background-size: cover;
+    }
+    /********** Timeline Styles *********/
+    main #timeline {
+        background-color: rgb(198, 241, 255);
+        text-align: left;
+    }
+    main #timeline h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    main #timeline figure {
+        text-align: center;
+    }
+    main #timeline img {
+        width: 50%;
+    }
+}
