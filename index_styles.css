@@ -124,3 +124,79 @@ footer {
         width: 50%;
     }
 }
+
+/*----------------------------------------------------------------------------
+                          Small Desktop Design
+------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1000px) {
+    body {
+        font-size: 1.40rem;
+    }
+    header {
+        height: 5rem;
+    }
+    ul {
+        padding: 0;
+    }
+
+    /***********************************************
+    Main Section
+    ***********************************************/
+
+    /********** Landing Styles *********/
+    main #landing {
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("images/Emiliano_Zapata_04.jpg") no-repeat fixed;
+        background-size: cover;
+    }
+    main #landing h2 {
+        font-size: 6rem;
+    }
+    /********** Timeline Styles *********/
+    main #timeline {
+        background: none;
+        padding: 3rem 1.75rem;
+    }
+    main #timeline h2 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    main #timeline div {
+        background-color: rgb(198, 241, 255);
+        border-radius: 25px;
+        margin-bottom: 4rem;
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }   
+    main #timeline figure {
+        margin: 0;
+    }
+    main #timeline img {
+        width: 20rem;
+    }
+    main #timeline .right-card figure {
+        margin-right: 4rem;
+    }
+    main #timeline .left-card {
+        flex-direction: row-reverse;
+    }
+    main #timeline .left-card ul {
+        margin-right: 4rem;
+        margin-left: 1.25rem;
+    }
+    main #timeline ul {
+        align-self: center;
+    }
+
+    /***********************************************
+        Footer Section
+    ***********************************************/
+    footer {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
